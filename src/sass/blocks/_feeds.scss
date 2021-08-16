@@ -1,6 +1,6 @@
 .feeds {
     min-height: 600px;
-    padding: 150px 0 50px 0;   
+    padding: 170px 0 50px 0; 
     &__title {
         font-size: 50px;
         font-weight: 600;
@@ -150,10 +150,26 @@
             
         }
     }
+    &__tree {
+        display: flex;
+        margin-top: 70px;
+        justify-content: space-around;       
+        &-link {
+            display: inline;
+            color: black;
+            font-size: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all .3s;
+            &:hover {
+                transform: scale(1.14);
+            }
+        }
+    }
     &__bg {
         display: flex;
         width: 100%;
-        margin-top: 200px;
+        margin-top: 150px;
         justify-content: center;
     }
     

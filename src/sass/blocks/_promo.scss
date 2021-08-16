@@ -1,27 +1,24 @@
 .promo {
-    padding: 200px 0 100px 0;
-    height: 700px;
-    background-color: aqua;
+    display: flex;
+    padding: 100px 0 100px 0;
+    justify-content: flex-end;
+    min-height: 800px;
+    background: url('../img/bg/promo_bg.png') left no-repeat;
     &__title {
-        display: inline;
-        font-size: 50px;
+        height: 65px;
+        margin-top: 200px;
+        margin-right: -320px;
+        font-size: 60px;
         font-weight: 600;
-        color: yellow;
-        span {
-            margin-top: 15px;
-            font-size: 25px;
-            font-weight: 600;
-            color: black;
-        }
+        font-style: italic;
+        color: black;
     }
-
-    &__photo {
-        display: flex;
-        margin-top: -40px;
-        justify-content: flex-end;
-        img {
-            height: 600px;
-            width: 470px;
-        }
+    &__subtitle {
+        height: 45px;
+        margin-top: 300px;
+        margin-right: 50px;
+        font-size: 40px;
+        font-weight: 600;
+        color: black;
     }
 }
